@@ -1,0 +1,13 @@
+{
+  "name": "interconnection-watch",
+  "private": true,
+  "type": "module",
+  "description": "Tracks recent changes to generator interconnection procedures and power-system study guidelines across major US and Canadian grid operators.",
+  "scripts": {
+    "check": "node scripts/check-updates.mjs",
+    "serve": "npx --yes serve . -l 5173"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.128.0"
+  }
+}

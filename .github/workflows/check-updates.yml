@@ -1,0 +1,45 @@
+name: Check interconnection updates
+
+on:
+  schedule:
+    # 08:00 Asia/Calcutta (UTC+5:30) every Monday = 02:30 UTC
+    - cron: "30 2 * * 1"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: check-updates
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run weekly research check
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          MODEL: ${{ vars.CHECK_MODEL }}
+        run: npm run check
+
+      - name: Commit updated data
+        run: |
+          git config user.name "interconnection-watch-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/updates.json
+          if git diff --cached --quiet; then
+            echo "No data changes this run."
+          else
+            git commit -m "chore: weekly interconnection guideline check"
+            git push
+          fi
