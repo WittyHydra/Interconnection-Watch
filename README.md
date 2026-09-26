@@ -47,12 +47,7 @@ laptop or app needing to be open.
 
 ## One-time setup
 
-You need: a GitHub account, and an Anthropic API key (console.anthropic.com →
-API Keys — **billed separately per API call**, distinct from a Claude
-subscription; ballpark cost is in "Cost" below).
-
-I can't do these steps for you (I don't have `gh` CLI access or your GitHub
-credentials in this environment) — but they're copy-paste:
+You need: a GitHub account, and an Anthropic API key
 
 1. **Create the repo** (GitHub web UI: New repository — public, so GitHub
    Pages can serve it for free; nothing in here is sensitive, it's all public
