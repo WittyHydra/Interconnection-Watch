@@ -1,9 +1,9 @@
 {
   "meta": {
-    "lastRun": "2026-09-26",
+    "lastRun": "2026-09-28",
     "sourcesChecked": 11,
     "totalUpdates": 62,
-    "notes": "Initial baseline capture across all 11 tracked operators."
+    "notes": "No new items found this cycle. 17 entries aged out of the 12-month \"recent\" window. Could not complete research for: us-east-central, us-south-west, canada."
   },
   "updates": [
     {
@@ -315,7 +315,7 @@
       "url": "https://www.spp.org/documents/75765/20260122_order_order%20nos.%202023%20and%202023-a%20second%20compliance%20filing_er24-2026-001,%20002.pdf",
       "date": "2025-06-26",
       "summary": "FERC accepted SPP's second compliance filing revising Attachment V (GIP) to implement Order Nos. 2023/2023-A interconnection queue reforms (first-ready-first-served, financial deposits, co-location, surplus interconnection).",
-      "isRecentChange": true,
+      "isRecentChange": false,
       "detectedAt": "2026-09-26"
     },
     {
@@ -327,7 +327,7 @@
       "url": "https://www.spp.org/documents/71631/20240516_order%20nos.%202023%20and%202023-a%20compliance%20filing_er24-2026-000.pdf",
       "date": "2024-05-16",
       "summary": "SPP's original FERC filing proposing GIP tariff changes to comply with FERC Order 2023; later followed by a further compliance filing after partial acceptance.",
-      "isRecentChange": true,
+      "isRecentChange": false,
       "detectedAt": "2026-09-26"
     },
     {
@@ -387,7 +387,7 @@
       "url": "https://www.ercot.com/mktrules/issues/NPRR1234",
       "date": "2025-04-08",
       "summary": "Establishes new interconnection/modeling requirements for large loads (e.g. data centers), folding them into stability/reliability assessments before energization. Effective 2025-12-15.",
-      "isRecentChange": true,
+      "isRecentChange": false,
       "detectedAt": "2026-09-26"
     },
     {
@@ -399,7 +399,7 @@
       "url": "https://www.ercot.com/mktrules/issues/PGRR115",
       "date": "2025-04-08",
       "summary": "Creates a new Large Load Interconnection Study process in the Planning Guide requiring large loads to be studied for stability/reliability impacts before interconnection. Effective 2025-12-15.",
-      "isRecentChange": true,
+      "isRecentChange": false,
       "detectedAt": "2026-09-26"
     },
     {
@@ -411,7 +411,7 @@
       "url": "https://www.ercot.com/mktrules/issues/reports/pgrr",
       "date": "2025-07-30",
       "summary": "Adds sub-synchronous oscillation risk screening/mitigation requirements to generator interconnection studies in the Planning Guide.",
-      "isRecentChange": true,
+      "isRecentChange": false,
       "detectedAt": "2026-09-26"
     },
     {
@@ -423,7 +423,7 @@
       "url": "https://interchange.puc.texas.gov/Documents/41155_57_1535435.PDF",
       "date": "2025-07-31",
       "summary": "Requires ERCOT to publish a recurring public status report tracking large-load interconnection queue progress.",
-      "isRecentChange": true,
+      "isRecentChange": false,
       "detectedAt": "2026-09-26"
     },
     {
@@ -447,7 +447,7 @@
       "url": "https://www.caiso.com/documents/appendix-dd-generator-interconnection-deliverability-allocation-procedures-as-of-jun-25-2025.pdf",
       "date": "2025-06-25",
       "summary": "Current governing large-generator interconnection tariff appendix (queue clustering, deliverability allocation), reflecting Track 3 reforms.",
-      "isRecentChange": true,
+      "isRecentChange": false,
       "detectedAt": "2026-09-26"
     },
     {
@@ -471,7 +471,7 @@
       "url": "https://www.caiso.com/documents/jun-24-2025-letter-order-accepting-interconnection-process-enhancements-2023-track-3-er25-2044.pdf",
       "date": "2025-06-24",
       "summary": "FERC accepted CAISO's Track 3 interconnection reforms (queue/study process refinements), following Track 1/2 reforms effective Oct 1, 2024.",
-      "isRecentChange": true,
+      "isRecentChange": false,
       "detectedAt": "2026-09-26"
     },
     {
@@ -495,7 +495,7 @@
       "url": "https://www.caiso.com/documents/section-24-comprehensive-transmission-planning-process-as-of-jun-25-2025.pdf",
       "date": "2025-06-25",
       "summary": "Governs annual transmission planning studies (reliability, deliverability, policy-driven) that interconnection facilities/system-impact studies rely on.",
-      "isRecentChange": true,
+      "isRecentChange": false,
       "detectedAt": "2026-09-26"
     },
     {
@@ -531,7 +531,7 @@
       "url": "https://www.ieso.ca/-/media/Files/IESO/Document-Library/Renewed-Market-Rules-and-Manuals/market-manuals/connecting/ieso-con-connection-assessment-and-approval.pdf",
       "date": "2025-04-04",
       "summary": "Governs the connection assessment/approval process (system impact & feasibility assessments); recently reorganized and rewritten for clarity.",
-      "isRecentChange": true,
+      "isRecentChange": false,
       "detectedAt": "2026-09-26"
     },
     {
@@ -543,7 +543,7 @@
       "url": "https://ieso.ca/-/media/Files/IESO/Document-Library/Renewed-Market-Rules-and-Manuals/market-manuals/connecting/ieso-con-ontario-resource-transmission-assessment-criteria.pdf",
       "date": "2025-09-10",
       "summary": "Sets the reliability/planning criteria (thermal, voltage, stability) IESO uses for transmission and resource-adequacy assessments, including connection-related studies.",
-      "isRecentChange": true,
+      "isRecentChange": false,
       "detectedAt": "2026-09-26"
     },
     {
@@ -567,7 +567,7 @@
       "url": "https://www.ieso.ca/Sector-Participants/IESO-News/2025/03/Ontario-Energy-Board-Decision-on-MRP-Market-Rule-Amendments",
       "date": "2025-03",
       "summary": "OEB reviewed and did not overturn IESO Board-approved MRP market rule amendments; shows the active OEB oversight channel used for chapter/appendix changes.",
-      "isRecentChange": true,
+      "isRecentChange": false,
       "detectedAt": "2026-09-26"
     },
     {
@@ -591,7 +591,7 @@
       "url": "https://www.aeso.ca/grid/connecting-to-the-grid/connection-process/",
       "date": "2025-05-27",
       "summary": "Describes the staged application/study/regulatory process (scoping, system access service, construction) generators and loads must follow to connect.",
-      "isRecentChange": true,
+      "isRecentChange": false,
       "detectedAt": "2026-09-26"
     },
     {
@@ -627,7 +627,7 @@
       "url": "https://www.aeso.ca/assets/Uploads/future-of-electricity/AESO-2025-Reliability-Requirements-Roadmap.pdf",
       "date": "2025-08-15",
       "summary": "Sets out new/updated reliability requirements (system strength/weighted short-circuit ratio screening, flexibility, frequency response) feeding into connection studies.",
-      "isRecentChange": true,
+      "isRecentChange": false,
       "detectedAt": "2026-09-26"
     },
     {
@@ -687,7 +687,7 @@
       "url": "https://www.hydroquebec.com/transenergie/en/notices-published-regie-energie.html",
       "date": "2025-08-07",
       "summary": "New Régie de l'énergie filings for 2026-2028 rates covering both the Transmission Provider and Distributor; baseline procedural filings to watch for connection-tariff redlines.",
-      "isRecentChange": true,
+      "isRecentChange": false,
       "detectedAt": "2026-09-26"
     },
     {
@@ -699,7 +699,7 @@
       "url": "https://app.bchydro.com/content/dam/BCHydro/customer-portal/documents/transmission/tgi/60kv-500kv-TIR-for-power-generators.pdf",
       "date": "2025-09-22",
       "summary": "Revision 2.1.1; governs technical (voltage, frequency, protection, ride-through) requirements for transmission-level generator interconnections.",
-      "isRecentChange": true,
+      "isRecentChange": false,
       "detectedAt": "2026-09-26"
     },
     {
@@ -747,7 +747,7 @@
       "url": "https://app.bchydro.com",
       "date": "2024-11-22",
       "summary": "Sets site-control documentation requirements applicants must meet at each stage of the interconnection queue.",
-      "isRecentChange": true,
+      "isRecentChange": false,
       "detectedAt": "2026-09-26"
     }
   ]
